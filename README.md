@@ -1,5 +1,7 @@
 # ESP8266 MQTT Doorbell for HomeAssistant
 This project allows is a modification in the 'ding dong' unit for the china doorbell
+![alt text](https://github.com/DotNetDann/ESP-MQTT-DoorbellNotifier/blob/master/DoorbellListingPhoto.jpg?raw=true "Wiring Diagram")
+
 
 #### Supported Features Include
 - When somone rings your doorbell, a 'Ring' message gets sent to a MQTT broker
@@ -16,7 +18,8 @@ More information on OTA uploading can be found [here](http://esp8266.github.io/A
 
 #### Parts List
 - [NodeMCU](https://www.amazon.com/HiLetgo-Version-NodeMCU-Internet-Development/dp/B010O1G1ES/)
-- The doorbell thing... TODO: URL
+- The doorbell - Search ebay for "WiFi Wireless Video Doorbell 8G"
+
 
 #### Wiring Diagram
 ![alt text](https://github.com/DotNetDann/ESP-MQTT-DoorbellNotifier/blob/master/Wiring%20Diagram.png?raw=true "Wiring Diagram")
