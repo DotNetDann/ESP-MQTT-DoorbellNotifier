@@ -20,7 +20,7 @@
 #define OTAport 8266
 
 
-#define MQTT_ACTION_TOPIC WIFI_HOSTNAME "/action"
+//#define MQTT_ACTION_TOPIC WIFI_HOSTNAME "/action"
 #define MQTT_STATUS_TOPIC WIFI_HOSTNAME "/status"
 #define DOORBELL_PIN 16 // D0 on ESP8266
 #define SILENCE_PIN 2 // D4 on ESP8266

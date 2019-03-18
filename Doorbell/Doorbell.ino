@@ -273,8 +273,8 @@ void loop() {
   //check_doorbell_status(); // Check the sensors and publish any changes
   
   // We have enabled Light sleep so this delay should reduce the power used
-  //delay(500); // Works great but want to save more power
-  delay(1000);
+  delay(500); // Works great but want to save more power
+  //delay(1000);
   //delay(2000); // Missed some button presses
   
   //Serial.print(".");

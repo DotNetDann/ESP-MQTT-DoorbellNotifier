@@ -1,0 +1,17 @@
+mqtt:
+  broker: your.mqtt.ip.address
+  port: 1883
+  client_id: home-assistant-1
+  username: YOURUSERNAME
+  password: YOURPASSWORD
+
+  - platform: mqtt
+    name: "Doorbell"
+    state_topic: "Doorbell/status"
+    availability_topic: "Doorbell/availability"
+    qos: 0
+    payload_on: "Ring"
+    payload_off: "OK"
+    payload_available: "online"
+    payload_not_available: "offline"
+    device_class: moving
